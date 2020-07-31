@@ -5,3 +5,5 @@ The aim of this task is to automatically select medical concepts related to each
 ### Scientific papers References
 
 [AUEB NLP Group, 2019](http://ceur-ws.org/Vol-2380/paper_136.pdf)
+
+[Pelka et al., 2019](http://ceur-ws.org/Vol-2380/paper_245.pdf)
