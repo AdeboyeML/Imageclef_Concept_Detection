@@ -1,5 +1,3 @@
-### ***This is an On-going project***
-
 
 
 # Imageclef_Concept_Detection
@@ -17,18 +15,18 @@ The aim of this task is to automatically detect medical concepts related to each
 
 
 
-[concept_detection_notebook](https://github.com/AdeboyeML/Imageclef_Concept_Detection/blob/master/concept_detection_full_roco_dataset.ipynb)
-
 
 ### -- Summary (models still needs further training...more compute power required)
+
+[concept_detection_notebook](https://github.com/AdeboyeML/Imageclef_Concept_Detection/blob/master/concept_detection_full_roco_dataset.ipynb)
 
 ### -- Full ROCO Dataset
 No | Datasets | No of images
 --- | --- | ---
-0 | Train Dataset | 61000
+0 | Train Dataset | 60963
 1 | Validation Dataset | 7,700
-2 | Test Dataset | 7,700
-3 | Total | 75000
+2 | Test Dataset | 7,662
+3 | Total | 76328
 
 
 - Evaluation metric == F1 Score: is the most suited for imbalanced class labels (in our case -- concepts to be detected).
@@ -65,6 +63,14 @@ No | Model Description | Dev. f1 Score | Test f1 Score
 4 | ResNet 101 + Data Filtering (Df1) -- Xu et al., 2019 (Damo Group) | 0.169 | 0.160
 5 | ResNet 101 + Data Filtering (Df3) -- Xu et al., 2019 (Damo Group) | 0.170 | 0.163
 
+
+
+### Python Scripts
+
+-- DenseNet-121 Encoder/Resnet 101 + FFNN - train_model_get_threshold.py
+-- DenseNet-121 Encoder + k-NN Image Retrieval - knn_train_test.py
+-- ResNet 101 + Data Filtering (Df1/Df3) - filtered_model.py
+-- make predictions on test data - make_predictions.py
 
 
 
