@@ -24,7 +24,7 @@ The aim of this task is to automatically detect medical concepts related to each
 No | Datasets | No of images
 --- | --- | ---
 0 | Train Dataset | 60963
-1 | Validation Dataset | 7,700
+1 | Validation Dataset | 7,703
 2 | Test Dataset | 7,662
 3 | Total | 76328
 
