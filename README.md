@@ -67,10 +67,10 @@ No | Model Description | Dev. f1 Score | Test f1 Score
 
 ### Python Scripts
 
--- DenseNet-121 Encoder/Resnet 101 + FFNN - train_model_get_threshold.py
--- DenseNet-121 Encoder + k-NN Image Retrieval - knn_train_test.py
--- ResNet 101 + Data Filtering (Df1/Df3) - filtered_model.py
--- make predictions on test data - make_predictions.py
+- DenseNet-121 Encoder/Resnet 101 + FFNN - train_model_get_threshold.py,
+- DenseNet-121 Encoder + k-NN Image Retrieval - knn_train_test.py,
+- ResNet 101 + Data Filtering (Df1/Df3) - filtered_model.py,
+- make predictions on test data - make_predictions.py,
 
 
 
