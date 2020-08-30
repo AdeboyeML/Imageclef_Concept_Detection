@@ -22,6 +22,15 @@ The aim of this task is to automatically detect medical concepts related to each
 
 ### -- Summary (models still needs further training...more compute power required)
 
+### -- Full ROCO Dataset
+No | Datasets | No of images
+--- | --- | ---
+0 | Train Dataset | 61000
+1 | Validation Dataset | 7,700
+2 | Test Dataset | 7,700
+3 | Total | 75000
+
+
 - Evaluation metric == F1 Score: is the most suited for imbalanced class labels (in our case -- concepts to be detected).
 
 
@@ -31,6 +40,33 @@ No | Model Description | Dev. f1 Score | Test f1 Score
 --- | --- | --- | ---
 0 | DenseNet-121 Encoder + FFNN (AUEB NLP Group, 2019) | 0.157 | 0.146
 1 | DenseNet-121 Encoder + k-NN Image Retrieval (AUEB NLP Group, 2019) | 0.147 | 0.142
+
+
+
+
+### -- Reduced Dataset
+No | Datasets | No of images
+--- | --- | ---
+0 | Train Dataset | 30000
+1 | Validation Dataset | 3500
+2 | Test Dataset | 3500
+3 | Total | 37000
+
+
+### -- Summary ( All models still needs retraining)
+
+##### - Decision Threshold was tuned on validation dataset, the best threshold was 0.1
+
+No | Model Description | Dev. f1 Score | Test f1 Score
+--- | --- | --- | ---
+0 | DenseNet-121 Encoder + FFNN (AUEB NLP Group, 2019) | 0.168 | 0.161
+1 | Resnet 101 + FFNN, Multi-label classification in Xu, et al 2019 | 0.168 | 0.160
+2 | DenseNet-121 Encoder + k-NN Image Retrieval (AUEB NLP Group, 2019) | 0.150 | 0.142
+4 | ResNet 101 + Data Filtering (Df1) -- Xu et al., 2019 (Damo Group) | 0.169 | 0.160
+5 | ResNet 101 + Data Filtering (Df3) -- Xu et al., 2019 (Damo Group) | 0.170 | 0.163
+
+
+
 
 ### Scientific papers References
 
