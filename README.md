@@ -20,7 +20,7 @@ The aim of this task is to automatically detect medical concepts related to each
 
 [concept_detection_notebook](https://github.com/AdeboyeML/Imageclef_Concept_Detection/blob/master/concept_detection_full_roco_dataset.ipynb)
 
-### -- Full ROCO Dataset
+### -- Full ROCO (Radiology Objects in COntext) Dataset
 No | Datasets | No of images
 --- | --- | ---
 0 | Train Dataset | 60963
@@ -66,7 +66,7 @@ No | Model Description | Dev. f1 Score | Test f1 Score
 
 
 ### Python Scripts
-
+- Download ROCO tar files and extract images from the files -> `download_extract.py,`
 - DenseNet-121 Encoder/Resnet 101 + Feed Forward Neural Network -> `train_model_get_threshold.py,`
 - DenseNet-121 Encoder + k-NN Image Retrieval -> `knn_train_test.py,`
 - ResNet 101 + Data Filtering (Df1/Df3) -> `filtered_model.py,`
@@ -77,5 +77,7 @@ No | Model Description | Dev. f1 Score | Test f1 Score
 ### Scientific papers References
 
 [AUEB NLP Group, 2019](http://ceur-ws.org/Vol-2380/paper_136.pdf)
+
+[Damo Group, 2019](http://ceur-ws.org/Vol-2380/paper_141.pdf)
 
 [Pelka et al., 2019](http://ceur-ws.org/Vol-2380/paper_245.pdf)
