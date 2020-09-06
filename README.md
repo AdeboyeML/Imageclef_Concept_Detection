@@ -18,8 +18,6 @@ The aim of this task is to automatically detect medical concepts related to each
 
 ### -- Summary (models still needs further training...more compute power required)
 
-[concept_detection_notebook](https://github.com/AdeboyeML/Imageclef_Concept_Detection/blob/master/concept_detection_full_roco_dataset.ipynb)
-
 ### -- Full ROCO (Radiology Objects in COntext) Dataset
 No | Datasets | No of images
 --- | --- | ---
